@@ -18,6 +18,13 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="RWLock.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RWLock.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{8CE5D55A-8C95-4D9B-9702-4A5EF350C368}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -145,13 +152,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\..\Visual Studio 2015\Projects\MyReadWriteLock\MyReadWriteLock\Main.cpp" />
-    <ClCompile Include="..\..\..\..\Visual Studio 2015\Projects\MyReadWriteLock\MyReadWriteLock\RWLock.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\..\Visual Studio 2015\Projects\MyReadWriteLock\MyReadWriteLock\RWLock.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
